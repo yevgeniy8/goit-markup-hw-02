@@ -5,12 +5,15 @@
 /* цвет абзацев #757575 */
 /* цвет контактов rgba(255, 255, 255, 0.6) */
 /* цвет фона #F5F5F5 */
+/* вторичный фон #2F303A*/
 
 :root {
 	--primary-text-color: #212121;
 	--title-text-color: #FFFFFF;
 	--accent-color: #2196F3;
 	--paragraph-text-color: #757575;
+	--logo-color: #000000;
+	--secondary-background-color: #2F303A;
 }
 
 /* Стили index.html */
@@ -45,7 +48,7 @@ body {
 }
 
 .studio {
-	color: #000000;
+	color: var(--logo-color);
 }
 
 .site-nav .link {
@@ -75,14 +78,16 @@ body {
 }
 
 .site-contacts .link:hover,
-.site-contacts .link:focus {
-		color: var(--accent-color);
+.site-contacts .link:focus,
+.address-list .link:hover,
+.address-list .link:focus {
+	color: var(--accent-color);
 }
 
 /* main */
 .hero-title {
 	color: var(--title-text-color);
-	background-color: #2F303A;
+	background-color: var(--secondary-background-color);
 
 	font-weight: 900;
 	font-size: 44px;
@@ -107,26 +112,28 @@ body {
 	
 	text-align: center;
 	letter-spacing: 0.06em;
+
+	cursor: pointer;
 }
 
 .section-title {
 	color: var(--primary-text-color);
 
-	font-weight: 700;
+	/* font-weight: 700; */
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
 }
 
 .feature-list .title {
-	font-weight: 700;
+	/* font-weight: 700; */
 	text-transform: uppercase;
 }
 
 .feature-list .paragraph {
 	color: var(--paragraph-text-color);
 
-	font-weight: 400;
+	/* font-weight: 400; */
 	line-height: 1.71;
 	/* or 171% */
 	
@@ -148,7 +155,7 @@ body {
 .team-card .paragraph {
 	color: var(--paragraph-text-color);
 
-	font-weight: 400;
+	/* font-weight: 400; */
 	font-size: 16px;
 	line-height: 1.19;
 	/* identical to box height */
@@ -156,7 +163,7 @@ body {
 
 /* footer */
 .floor {
-	background-color: #2F303A;
+	background-color: var(--secondary-background-color);
 }
 
 .studio-footer {
@@ -166,7 +173,7 @@ body {
 .address-list .address-street {
 	color: var(--title-text-color);
 
-	font-weight: 400;
+	/* font-weight: 400; */
 	line-height: 1.71;
 	/* or 171% */
 
@@ -188,12 +195,12 @@ body {
 
 /* Стили portfolio.html */
 .filters .link {
-	background-color: #F5F4FA;
-
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
 	/* identical to box height, or 162% */
+
+	cursor: pointer;
 }
 
 .project .link {
@@ -201,7 +208,7 @@ body {
 }
 
 .project-title {
-	font-weight: 700;
+	/* font-weight: 700; */
 	font-size: 18px;
 	line-height: 2;
 	/* identical to box height, or 200% */
@@ -218,7 +225,7 @@ body {
 .project .project-description {
 	color: var(--paragraph-text-color);
 
-	font-weight: 400;
+	/* font-weight: 400; */
 	font-size: 16px;
 	line-height: 1.88;
 	/* identical to box height, or 188% */
