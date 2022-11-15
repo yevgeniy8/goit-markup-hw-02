@@ -1,4 +1,5 @@
 # goit-markup-hw-01
+<!-- Разные преттиер -->
 {
   "printWidth": 100,
   "tabWidth": 2,
