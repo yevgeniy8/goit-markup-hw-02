@@ -25,7 +25,6 @@ body {
 
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	line-height: 1.14;
 	letter-spacing: 0.03em;
 }
 
@@ -51,14 +50,16 @@ body {
 	color: var(--logo-color);
 }
 
+/* Site nav */
 .site-nav .link {
+	color: inherit;
 	font-weight: 500;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 
 	text-decoration: none;
 }
 
-/* Site nav */
 .site-nav .link:hover,
 .site-nav .link:focus {
 	color: var(--accent-color);
@@ -72,6 +73,7 @@ body {
 	color: var(--paragraph-text-color);
 
 	font-weight: 500;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 
 	text-decoration: none;
@@ -92,7 +94,6 @@ body {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	/* or 136% */
 	
 	text-align: center;
 	letter-spacing: 0.06em;
@@ -108,7 +109,6 @@ body {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
-	/* identical to box height, or 188% */
 	
 	text-align: center;
 	letter-spacing: 0.06em;
@@ -119,24 +119,20 @@ body {
 .section-title {
 	color: var(--primary-text-color);
 
-	/* font-weight: 700; */
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
 }
 
 .feature-list .title {
-	/* font-weight: 700; */
+	line-height: 1.14;
 	text-transform: uppercase;
 }
 
 .feature-list .paragraph {
 	color: var(--paragraph-text-color);
 
-	/* font-weight: 400; */
 	line-height: 1.71;
-	/* or 171% */
-	
 	letter-spacing: 0.03em;
 }
 
@@ -149,16 +145,13 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
-	/* identical to box height */
 }
 
 .team-card .paragraph {
 	color: var(--paragraph-text-color);
 
-	/* font-weight: 400; */
 	font-size: 16px;
 	line-height: 1.19;
-	/* identical to box height */
 }
 
 /* footer */
@@ -173,9 +166,7 @@ body {
 .address-list .address-street {
 	color: var(--title-text-color);
 
-	/* font-weight: 400; */
 	line-height: 1.71;
-	/* or 171% */
 
 	font-style: normal;
 	text-decoration: none;
@@ -186,7 +177,6 @@ body {
 
 	font-weight: 400;
 	line-height: 1.71;
-	/* or 171% */
 
 	font-style: normal;
 	text-decoration: none;
@@ -195,10 +185,10 @@ body {
 
 /* Стили portfolio.html */
 .filters .link {
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
-	/* identical to box height, or 162% */
 
 	cursor: pointer;
 }
@@ -208,10 +198,8 @@ body {
 }
 
 .project-title {
-	/* font-weight: 700; */
 	font-size: 18px;
 	line-height: 2;
-	/* identical to box height, or 200% */
 	
 	letter-spacing: 0.06em;
 }
@@ -225,8 +213,6 @@ body {
 .project .project-description {
 	color: var(--paragraph-text-color);
 
-	/* font-weight: 400; */
 	font-size: 16px;
 	line-height: 1.88;
-	/* identical to box height, or 188% */
 }
