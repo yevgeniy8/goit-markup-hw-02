@@ -116,6 +116,11 @@ body {
 	cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+	background-color: #188CE8;
+}
+
 .section-title {
 	color: var(--primary-text-color);
 
