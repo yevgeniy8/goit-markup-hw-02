@@ -129,13 +129,13 @@ body {
 	text-align: center;
 }
 
-.feature-list .title {
+.feature-list .feature-title {
 	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 }
 
-.feature-list .paragraph {
+.feature-list .feature-paragraph {
 	color: var(--paragraph-text-color);
 
 	line-height: 1.71;
@@ -147,13 +147,13 @@ body {
 	background-color: #F5F4FA;
 }
 
-.team-card .title {
+.team-card .team-title {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
 }
 
-.team-card .paragraph {
+.team-card .team-paragraph {
 	color: var(--paragraph-text-color);
 
 	font-size: 16px;
@@ -190,7 +190,7 @@ body {
 
 
 /* Стили portfolio.html */
-.filters .link {
+.filters .filters-button {
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
@@ -199,7 +199,7 @@ body {
 	cursor: pointer;
 }
 
-.project .link {
+.project .project-link {
 	text-decoration: none;
 }
 
